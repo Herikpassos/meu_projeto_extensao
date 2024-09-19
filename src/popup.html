@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Arquivos</title>
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Arquivos</h1>
+        <form id="converterForm">
+            <label for="fileInput">Selecione um arquivo:</label>
+            <input type="file" id="fileInput" required>
+            
+            <label for="formatSelect">Escolha o formato de saída:</label>
+            <select id="formatSelect" required>
+                <option value="pdf">PDF</option>
+                <option value="doc">DOC</option>
+                <option value="png">PNG</option>
+                <option value="jpg">JPG</option>
+            </select>
+
+            <button id="convertButton" type="submit">Converter</button>
+        </form>
+        <div id="output" class="hidden">
+            <p>Conversão concluída! <a id="downloadLink" href="#">Baixar arquivo</a></p>
+        </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
