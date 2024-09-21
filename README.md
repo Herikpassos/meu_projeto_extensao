@@ -13,7 +13,7 @@ O **Conversor de Arquivos** é uma extensão para Google Chrome que permite conv
 
 ## 📂 Estrutura do Projeto
 
-```text
+```bash
 file-converter-extension/
 │
 ├── assets/             # Pasta contendo os ícones e outros recursos visuais
@@ -27,6 +27,7 @@ file-converter-extension/
 ├── styles.css          # Estilos da interface em CSS
 ├── background.js       # Script que controla a comunicação com APIs externas
 └── README.md           # Este arquivo de documentação
+```
 
 ## 🚀 Como Instalar Localmente
 
